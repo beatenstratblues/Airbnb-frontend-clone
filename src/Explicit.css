@@ -1,0 +1,16 @@
+.inner {
+  display: grid;
+  gap: 25px;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+}
+
+.outer {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.slide-hidden {
+display:hidden;
+}
